@@ -1,0 +1,25 @@
+.body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.62);
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    overflow: hidden;
+    border: aliceblue solid;
+    background-color: aliceblue;
+}
